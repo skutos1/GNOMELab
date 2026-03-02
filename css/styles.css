@@ -10987,8 +10987,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 100%;
   padding: 0.75rem;
-  color: #467370;
-  border: 1px solid #467370;
+  color: #0d4b34;
+  border: 1px solid #0d4b34;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11005,7 +11005,7 @@ body {
 }
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
-  background-color: transparent;
+  background-color: #000;
 }
 @media (min-width: 992px) {
   #mainNav {
