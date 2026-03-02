@@ -11118,11 +11118,11 @@ body {
   margin-bottom: 1rem
 }
 .about-section p {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .projects-section {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11163,7 +11163,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 .contact-section .card {
   border: 0;
