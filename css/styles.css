@@ -11172,7 +11172,6 @@ body {
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 1rem;
   font-family: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
