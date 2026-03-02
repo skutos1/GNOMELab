@@ -11163,11 +11163,11 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.75rem solid #467370;
+  border-bottom: 0.75rem solid #0d4b34;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 1rem;
@@ -11177,7 +11177,7 @@ body {
 }
 .contact-section .card hr {
   opacity: 1;
-  border-color: #467370;
+  border-color: #0d4b34;
   border-width: 1rem;
   width: 1rem;
 }
@@ -11197,7 +11197,7 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 .contact-section .social a:active {
-  color: #1a1a1a;
+  color: #0d4b34;
 }
 
 .footer {
