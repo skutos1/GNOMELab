@@ -1,259 +1,912 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>GNOME Lab at Loyola University Maryland</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Barlow:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-<!-- Navigation-->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container px-8 px-lg-5">
-        <a class="navbar-brand" href="#page-top">GNOME Lab</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#people">Lab Members</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Lab Research</a></li>
-                <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
+    <title>LUM GNOME Lab</title>
+    <title>Dr. Steve Kutos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!-- This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
+    If you want to edit the styling of this page, you should edit the file assets/css/main.css
+    If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
+    <link rel="stylesheet" href="assets/css/my-new-css-file.css"/>
+    -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
+    will load a separate set of CSS stylings from the file assets/css/noscript.css
+    Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
+    available.
+    -->
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<!-- The body is the location where your site's content will go -->
+
+<body class="is-preload">
+    
+    <!-- This "div" wraps around all of our content and just changes how things are layed out -->
+    <div id="wrapper">
+
+        <!-- This is where the content that appears on page load exists -->
+        <header id="header">
+            <!-- This is the main content of the front page -->
+            <div class="content">
+                <div class="inner">
+                    <!-- Here is a heading where you can put your name -->
+                    <h1>
+                        Forest<sup>FUN</sup>
+                    </h1>
+                    <h3>
+                        Department of Biology
+                        <br>
+                        Loyola University Maryland
+                    </h3>
+                    <!-- Here is an image where you can put a picture of you. 
+                    You can change the width and height attributes below to change how large
+                    your image is.
+                    
+                    Try adding "border-radius: 50%;" to the style attribute.
+                    -->
+                    <span class="image wide">
+                        <img src="images/WebpageDecor/ramaria.jpg" alt="Research Image">
+                    </span>
+                </div>
+            <p style="text-align: center; width: 100%;"><em>Exploring the fungal foundations of forests to support climate adaptation from the ground up.</em></p>            <!-- This is the navigation menu -->
+            <nav>
+                <!-- This element makes an "Unordered List" -->
+                <ul>
+                    <!-- This is a "List Item" -->
+                    <li>
+                        <!-- Note that this links to #about, which will move the page to wherever
+                        the element with the id "about" exists. -->
+                        <a href="#research">Research</a>
+                    </li>
+                    <li>
+                        <a href="#people">Our Team</a>
+                    </li>
+                    <li>
+                        <a href="#publications">Publications</a>
+                    </li>
+                    <li>
+                        <a href="#resources">Resources</a>
+                    </li>
+                    <li>
+                        <a href="#join">Join Us</a>
+                    </li>
+                    <!-- You can add another button to your navigation menu by adding
+                    another List Item with a link inside of it. -->
+                    <!-- <li>
+                        <a href="images/Astronomy.jpg">My CV</a>
+                    </li> -->
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- These are the "cards" that appear when you click the buttons on the main page -->
+        <div id="main">
+            <!-- Here is the "Publications" card. -->
+            <article id="publications">
+                <div class="image main">
+                    <img src="images/WebpageDecor/peekyramaria.jpg" alt="Peeky Ramaria fungi">
+                    <div class="overlay-box">
+                        <div class="overlay-text">
+                            <h1>Selected Publications</h1>
+                            <br><br>
+                            <h4>For a more complete list of publications, check out</h4>
+                            <a href="https://scholar.google.com/citations?user=gEuyD3sAAAAJ&hl=en&oi=ao" target="_blank">
+                                <button class="button">Google Scholar</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Selected pubs -->
+                <br>
+                <!-- 	A <br> tag puts in a break so that the text that follows it displays on the next line. -->
+                <span class="image left">
+                    <img src="images/Pubs/NEE.jpg" alt="NEE">
+                </span>
+                <p><b>Willing, C. E.</b>, Wan, J., Yeam, J. J., Cesna, A. M., & Peay, K. G. (2024). Arbuscular mycorrhizal fungi equalize differences in plant fitness and facilitate plant species coexistence through niche differentiation. <i>Nature Ecology & Evolution, 8</i>(11), 2058–2071. <a href="https://doi.org/10.1038/s41559-024-02526-1" target="_blank">doi.org/10.1038/s41559-024-02526-1</a></p>  
+                <span class="image left">
+                    <img src="images/Pubs/NCC.jpg" alt="NCC">
+                </span>
+                <p><b>Willing, C. E.</b>, Pellitier, P. T., Van Nuland, M. E., Alvarez-Manjarrez, J., Berrios, L., Chin, K. N., Villa, L. M., Yeam, J. J., Bourque, S. D., Tripp, W., Leshyk, V. O., & Peay, K. G. (2024). A risk assessment framework for the future of forest microbiomes in a changing climate. <i>Nature Climate Change, 14</i>(5), 448-461. <a href="https://doi.org/10.1038/s41558-024-02000-7" target="_blank">doi.org/10.1038/s41558-024-02000-7</a></p>
+                <span class="image left">
+                    <img src="images/Pubs/ISME.jpg" alt="ISME">
+                </span>
+                <p>Berrios, L., Venturini, A. M., Ansell, T. B., Tok, E., Johnson, W., <b>Willing, C. E.</b>, & Peay, K. G. (2024). Co-inoculations of bacteria and mycorrhizal fungi often drive additive plant growth responses. <i>ISME Communications, 4</i>(1), ycae104. <a href="https://doi.org/10.1093/ismeco/ycae104" target="_blank">doi.org/10.1093/ismeco/ycae104</a></p>
+                <br><br>
+                <span class="image left">
+                    <img src="images/Pubs/GCB.jpg" alt="GCB">
+                </span>
+                <p>Dudney, J., Latimer, A. M., van Mantgem, P., Zald, H., <b>Willing, C. E.</b>, Nesmith, J. C. B., Cribbs, J., & Milano, E. (2023). The energy‐water limitation threshold explains divergent drought responses in tree growth, needle length, and stable isotope ratios. <i>Global Change Biology, 29</i>(12), 3779-3790. <a href="https://doi.org/10.1111/gcb.16740" target="_blank">doi.org/10.1111/gcb.16740</a></p>
+                <span class="image left">
+                    <img src="images/Pubs/ELE.jpg" alt="ELE">
+                </span>
+                <p><b>Willing, C. E.</b>, Pierroz, G., Guzman, A., Anderegg, L. D. L., Gao, C., Coleman-Derr, D., Taylor, J. W., Bruns, T. D., & Dawson, T. E. (2021). Keep your friends close: Host compartmentalisation of microbial communities facilitates decoupling from effects of habitat fragmentation. <i>Ecology Letters, 24</i>(12), 2674-2686. <a href="https://doi.org/10.1111/ele.13886" target="_blank">doi.org/10.1111/ele.13886</a></p>
+                <br><br>
+                <span class="image left">
+                    <img src="images/Pubs/NatCom.jpg" alt="Nat Comm">
+                </span>
+                <p>Dudney, J., <b>Willing, C. E.</b>, Das, A. J., Latimer, A. M., Nesmith, J. C. B., & Battles, J. J. (2021). Nonlinear shifts in infectious rust disease due to climate change. <i>Nature Communications, 12</i>(1), 5102. <a href="https://doi.org/10.1038/s41467-021-25182-6" target="_blank">doi.org/10.1038/s41467-021-25182-6</a></p>
+                <span class="image left">
+                    <img src="images/Pubs/MEC.jpg" alt="NEE">
+                </span>
+                <p><b>Willing, C. E.</b>, Pierroz, G., Coleman-Derr, D., & Dawson, T. E. (2020). The generalizability of water‐deficit on bacterial community composition; Site‐specific water‐availability predicts the bacterial community associated with coast redwood roots. <i>Molecular Ecology, 29</i>(23), 4721-4734. <a href="https://doi.org/10.1111/mec.15666" target="_blank">doi.org/10.1111/mec.15666</a></p>
+            </article>
+            
+            <!-- Here is the "Research" card. -->
+            <article id="research">
+                <div class="main-photo-container">  
+                    <img  class="background-image" src="images/WebpageDecor/PeruMushroom.jpg">  
+                    <div class="overlay-box">    
+                        <div class="overlay-text">    
+                            <h1>Research</h1> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <!-- A <br> tag puts in a break so that the text that follows it displays on
+                the next line. -->
+                <h3>Plant microbiomes and global change</h3>
+                <span class="image left">
+                    <img src="images/Research/climatechange.jpg" alt="">
+                </span>
+                <p>The first major goal of our research is to characterize and quantify the impact of global change on
+                    plant-associated microbial communities. While next-generation sequencing has revolutionized our
+                    understanding of plant-microbe interactions, there remain critical gaps in understanding how
+                    microbiomes might respond to global change. The long-term goal of this research is to understand how
+                    pulse disturbances like fire and drought impact the distributions of key microbes. Given the
+                    orders-of-magnitude differences between tree and microbial lifespans, differing rates of adaptation
+                    and recovery could cause spatio-temporal mismatches between plant and microbe partners. For
+                    instance, it is unclear how rapidly microbial communities may adapt, acclimate, or recover from
+                    increased frequency of pulse disturbances.
+                </p>
+                <br>
+                
+                <h3>Microbial underpinnings of plant community ecology</h3>
+                <span class="image left">
+                    <img src="images/Research/coexistence.jpg" alt="">
+                </span>
+                <p>Taking the information that we learn about the impact of global change on microbial distributions, the second major axis of our research
+                    program is to understand how the presence of key microbes mediates plant species assembly,
+                    especially following severe pulse disturbances. The factors which determine species coexistence and
+                    maintain diversity in terrestrial systems is a central question in ecology. One provocative idea is
+                    that symbiotic mutualisms control vegetation structure. Leveraging models based on the modern
+                    coexistence framework, our research investigates the role of root-associated microbial communities
+                    on the resistance and resilience of forest communities to climate change. As climate change poses
+                    new challenges for ecosystems, our research will illustrates how microbes influence processes of
+                    landscape-scale resistance and resilience.
+                </p>
+                
+                <h3>Microbial drivers of plant physiological ecology</h3>
+                <span class="image left">
+                    <img src="images/Research/droughtacclim.jpg" alt="">
+                </span>
+                <p>Using the information that we gain from testing the role of microbes on vegetation dynamics,
+                    the last goal of our research program is to determine the role of microbial communities in the
+                    physiological resistance of plants to climate change. For instance, AMF are thought to improve plant
+                    drought tolerance, yet few studies have demonstrated the potential mechanisms by which drought
+                    tolerance could be conferred. Pathogenic microbes may also influence plant ecophysiological
+                    responses to climate change. The long-term goal for this component of our research is to determine
+                    the role of microbes in the resistance of trees to climate change. Microbiomes are implicitly
+                    included in current measurements of plant response to environmental change; however, our predictions
+                    are critically limited as it is unclear how much of this variation is driven by microbial
+                    interactions or how these interactions might shift with increasing frequency or severity of
+                    disturbance. Our research utilizes classical ecophysiological techniques such as stomatal gas
+                    exchange and stable isotope ecology to explore novel questions about the role of microbiomes in
+                    determining ecophysiological responses of plants to environmental stress.
+                </p>
+            </article>
+            
+            <!-- Here is the "Resources" card. -->
+                          <article id="resources">
+                              <div class="main-photo-container">  
+                                  <img  class="background-image" src="images/WebpageDecor/hypholoma.jpg">  
+                                  <div class="overlay-box">    
+                                      <div class="overlay-text">    
+                                          <h1>Resources</h1> 
+                                      </div>
+                                  </div>
+                              </div>
+                              <!--A <br> tag puts in a break so that the text that follows it displays on the next line.-->
+                  <!-- Lab Documents Section -->
+                  <h3>Lab Documents</h3>
+                  <ul>
+                      <li><a href="https://docs.google.com/document/d/1WULbiwqsYDtvgktfuHu2BhX9hj9mc329r96ulUQ-q0A/edit?usp=sharing">Lab Expectations Document</a></li>
+                      <li><a href=" https://drive.google.com/drive/folders/13Q7d3H2gHDjMf2BFyxeac4AypM1iphWg?usp=share_link">Individualized Development Plans (IDP)</a></li>
+                      <li><a href="https://drive.google.com/drive/folders/1PXi-0Zy4FNhLs4wvENMf560ExLbCcwgS?usp=share_link">Field Safety Planning Templates</a></li>
+                  </ul>
+              
+                  <!-- Code & Data Availability Section -->
+                  <h3>Code & Data Availability</h3>
+                  <p>
+                      Our lab is committed to publishing our data and code for reproducible science. You can find all lab code on our
+                      <a href="https://github.com/UW-ForestMycobiomeLab">Github Organization</a> and our data on
+                      <a href="https://zenodo.org/communities/uw-forestmycobiomelab/records?q=&l=list&p=1&s=10&sort=newest">Zenodo</a>.
+                  </p>
+              
+                  <!-- Washington Climate Resources Section -->
+                  <h3>Washington Climate Resources</h3>
+                  <ul>
+                      <li><a href="https://climate.uw.edu">WA State Climate Office</a></li>
+                      <li><a href="https://cig.uw.edu">UW Climate Impacts Group</a></li>
+                      <li><a href="https://pcc.uw.edu">UW Program on Climate Change</a></li>
+                  </ul>
+              
+                  <!-- Professional Mycological Societies Section -->
+                  <h3>Professional Mycological Societies</h3>
+                  <ul>
+                      <li><a href="https://msafungi.org">Mycological Society of America</a></li>
+                      <li><a href="https://mycorrhizas.org">International Mycorrhizal Society</a></li>
+                      <li><a href="https://www.ima-mycology.org">International Mycological Society</a></li>
+                      <li><a href="https://www.spun.earth">Society for Protecting Underground Networks (SPUN)</a></li>
+                  </ul>
+              
+                  <!-- Washington and PNW Mycology Section -->
+                  <h3>Washington and PNW Mycology</h3>
+                  <ul>
+                      <li><a href="https://uw-forestmycobiomelab.github.io/fungiofwashington/">Fungi of Washington Project</a></li>
+                      <li><a href="https://www.svims.ca/council/">PNW Key Council</a></li>
+                      <li><a href="https://www.psms.org">Puget Sound Mycological Society</a></li>
+                      <li><a href="https://www.northwestmushroomers.org">Northwest Mushroomers Association</a></li>
+                      <li><a href="http://swmushrooms.org">Southwest WA Mycological Society</a></li>
+                      <li><a href="https://www.southsoundmushroomclub.com">South Sound Mushroom Club</a></li>
+                      <li><a href="http://www.scmsfungi.org">Snohomish Mycological Society</a></li>
+                  </ul>
+              </article>
+            
+            <!-- Our Team Section -->
+            <article id="people">
+                <div class="main-photo-container">  
+                    <img  class="background-image" src="images/WebpageDecor/laccaria.jpg">  
+                    <div class="overlay-box">    
+                        <div class="overlay-text">    
+                            <h1>Our Team</h1> 
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                <!-- Team Members Section -->
+                <div class="team-content">
+                    <!-- Principal Investigator -->
+                    <h2>Principal Investigator</h2>
+                    <div class="team-member">
+                        <span class="image img">
+                            <img src="images/ProfilePics/Claire.jpg" alt="Dr. Claire Willing">
+                        </span>
+                        <!-- <img src="images/ProfilePics/Profile_ClaireWilling.jpg" alt="Dr. Claire Willing"> -->
+                        <div>
+                            <h5 id="Claire+Willing">Dr. Claire Willing
+                                <small class="pronouns">| she/her</small>
+                            </h5>
+                            <p>Dr. Claire Willing leads the Forest Mycobiome Lab, focusing on fungal ecology, plant ecophysiology, and plant-fungal interactions under climate change. Her work is focused on how root-associated microbes influence ecosystem resistance and resilience in response to environmental disturbance.</p>
+                            <p>Outside of the lab, Claire loves to play soccer, hike, backpack, and spend time with her family and her dog Tepe.</p>
+                            <ul class="icons">
+                                <!-- The ORCID icon -->
+                                <li>
+                                    <a href="https://orcid.org/0000-0002-7563-242X" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li>
+                                <!-- Google Scholar -->
+                                <li>
+                                    <a href="https://scholar.google.com/citations?hl=en&user=gEuyD3sAAAAJ" class="icon fab fa-google-scholar">
+                                        <span class="label">Google Scholar</span>
+                                    </a>
+                                </li>
+                                <!-- GitHub -->
+                                <li>
+                                    <a href="https://github.com/ClaireWilling" class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <!-- Twitter -->
+                                <li>
+                                    <a href="https://bsky.app/profile/clairewilling.bsky.social" class="icon fab fa-bluesky">
+                                        <span class="label">Twitter</span>
+                                    </a>
+                                </li>
+                                <!-- Instagram
+                                <li>
+                                    <a href="#" class="icon fa-instagram">
+                                        <span class="label">Instagram</span>
+                                    </a>
+                                </li>
+                                -->
+                                <!-- 	We can add a new icon by searching on the Font Awesome website
+                                for the correct class name and inserting it as a new list item.
+                                
+                                We found "envelope" here: https://fontawesome.com/icons/envelope
+                                -->
+                                <li>
+                                    <a href="mailto:willingc@uw.edu" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+ <!-- Postdoctoral Fellows -->
+                    <h2>Postdoctoral Fellows</h2>
+                    <div class="team-member">
+                        <span class="image img">
+                            <img src="images/ProfilePics/Corinne.jpg" alt="Dr. Corinne Vietorisz">
+                        </span>
+                        <!-- <img src="images/ProfilePics/Corinne.jpg" alt="Corinne Vietorisz"> -->
+                        <div>
+                            <h5 id="Corinne+Vietorisz">Dr. Corinne Vietorisz
+                                <small class="pronouns">| she/her</small>
+                            </h5>
+                            <p> Corinne is a postdoctoral researcher in the lab whose work examines the molecular mechanisms fire-adapted fungi use to restore soil hydrological and biogeochemical properties after wildfire. She is excited about working with land managers to test how soil inoculations can help improve soil recovery and tree survival after severe wildfire.  </p>
+                            <p> In her free time, Corinne loves to ski, run, paint surreal landscapes and creatures, and check out local live music (any Seattle music recommendations are welcome!). </p>
+                            <ul class="icons">
+                                <!-- The ORCID icon -->
+                                <li>
+                                    <a href="https://orcid.org/0000-0002-5577-4922" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li>
+                                <!-- Google Scholar -->
+                                <li>
+                                    <a href="https://scholar.google.com/citations?user=2EqrllMAAAAJ&hl=en&oi=ao" class="icon fab fa-google-scholar">
+                                        <span class="label">Google Scholar</span>
+                                    </a>
+                                </li>
+                                <!-- GitHub -->
+                                <li>
+                                    <a href="https://github.com/crvietorisz" class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <!-- bluesky
+                                <li>
+                                    <a href="https://bsky.app/profile/clairewilling.bsky.social" class="icon fab fa-bluesky">
+                                        <span class="label">Twitter</span>
+                                    </a>
+                                </li>
+                                -->
+                                <!-- Instagram
+                                <li>
+                                    <a href="#" class="icon fa-instagram">
+                                        <span class="label">Instagram</span>
+                                    </a>
+                                </li>
+                                -->
+                                <!-- 	We can add a new icon by searching on the Font Awesome website
+                                for the correct class name and inserting it as a new list item.
+                                
+                                We found "envelope" here: https://fontawesome.com/icons/envelope
+                                -->
+                                <li>
+                                    <a href="mailto:cviet@uw.edu" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>                   
+                    <!-- Graduate Students -->
+                    <h2>Graduate Students</h2>
+                    
+                      <div class="team-member">
+                        <span class="image img">
+                            <img src="images/ProfilePics/Andrea.jpg" alt="Andrea">
+                        </span>
+                        <div>
+                            <h5>Andrea Muñoz Ledo Farré (2025-present)
+                                <small class="pronouns">| she/her</small>
+                            </h5>
+                            <p>Andrea is a PhD student in the lab, co-advised by Julie Larson (<a href="https://sites.uw.edu/uwprl/" target="_blank" rel="noopener noreferrer">Plant Regeneration Lab</a>), broadly interested in plant-soil feedbacks. Her research explores the combined effect of invasive grass encroachment and severe wildfire on soil microbial communities, and the resulting impact on native plant regeneration, competition-coexistence dynamics, and thus plant community composition. Her work is based in water-limited ecosystems (primarily grassland-forest ecotones) across the Pacific West.</p>
+                            <p>Andrea is also the Associate Program Director of the UW Campus Sustainability Fund. Outside of the UW, she is a dancer, runner, baker, painter, admirer of trees and mushrooms, and loves walking around Seattle parks.</p>
+                            <ul class="icons">
+                                <!-- The ORCID icon -->
+                                <li>
+                                    <a href="https://orcid.org/ " class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li>
+                                      <!-- Personal website -->
+                                  <li>
+                                    <a href="https://amunozledo.github.io"
+                                       class="icon solid fa-globe"
+                                       target="_blank">
+                                      <span class="label">Website</span>
+                                    </a>
+                                  </li>
+                                    </h5><!-- The GitHub icon -->
+                                <li>
+                                    <a href="https://github.com/amunozledo " class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:amlfarre@uw.edu" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/ProfilePics/Joey.jpg" alt="Joey Mann">
+                        <div>
+                            <h5>Joey Mann (2026-present)
+                                <small class="pronouns">| he/him</small>
+                            </h5>
+                            <p>Joey (he/him) is a PhD student in the lab whose research is focused on using experimental evolution and natural variation to understand how and if arbuscular mycorrhizal fungi will adapt to stresses brought on by climate change. He is co-advised by Dr. Maitreya Dunham in the Genome Sciences Department, and hopes to develop useful genomic resources for mycorrhizal fungal studies.</p>
+                            <p>Outside of the lab, Joey enjoys reading science-fiction novels, going on long walks, and has started kayaking.</p>
+                            <ul class="icons">
+                                <!-- The ORCID icon -->
+                                <li>
+                                    <a href="https://orcid.org/0009-0008-3082-9123" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li>
+                                <!-- The GitHub icon -->
+                                <li>
+                                    <a href="https://github.com/jomann2" class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:jmmann@uw.edu" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/ProfilePics/Mira.jpg" alt="Mira Ranganath">
+                        <div>
+                            <h5>Mira Ranganath (2023-present)
+                                <small class="pronouns">| she/they</small>
+                            </h5>
+                            <p>Mira Ranganath is Ph.D student in the lab whose research is focused on fungal adapation to fire and the role of fire-loving "pyrophilous" fungi in seedling regeneration, especially in forests where seedling establishment is impacted by post-fire drought.</p>
+                            <p>Her ideal evening is spent cooking with her partner, listening to jazz records, and watching queer films.</p>
+                            <ul class="icons">
+                                <!-- The ORCID icon -->
+                                <li>
+                                    <a href="https://orcid.org/0000-0002-0040-123X" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li>
+                                <!-- The GitHub icon -->
+                                <li>
+                                    <a href="https://github.com/mira-ranganath" class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:mranga@uw.edu" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="team-member">
+                        <img src="images/ProfilePics/Sarah.jpg" alt="Sarah Winkowski">
+                        <div>
+                            <h5>Sarah Winkowski (2023-present)
+                                <small class="pronouns">| they/them</small>
+                            </h5>
+                            <p>Sarah is a PhD student in the lab whose research is focused on understanding the impacts of climate-induced range shift on mycorrhizal community structure and function. Sarah also holds a M.A. in Museum Studies and has a keen interest in biological collections as references for biodiversity and global change.</p>
+                            <p>Outside the lab, Sarah's favorite hobby is picking up new hobbies—currently they are experimenting with block printing and cat agility training.</p>
+                            <ul class="icons">
+                                <!-- The ORCID icon 
+                                <li>
+                                    <a href="#" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li> -->
+                                <!-- The GitHub icon -->
+                                <li>
+                                    <a href="https://github.com/swinko" class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:swinko@uw.edu" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+<!-- Staff -->
+                    <h2>Staff</h2>
+                  <div class="team-member">
+                        <span class="image img">
+                            <img src="images/ProfilePics/Suvi.jpg" alt="Suvi Birch">
+                        </span>
+                        <div>
+                            <h5>Suvi Birch (2024-present)
+                                <small class="pronouns">| she/her</small>
+                            </h5>
+                            <p>Suvi completed her M.S. in August 2026 and is now a Research Scientist in the lab. Her research is focused on utilizing microbial inoculations to improve post-fire regeneration success of giant sequoia seedlings. She is passionate about increasing accessibility of environmental science fields to Black students and other underrepresented groups through volunteering and working with local non-profits.</p>
+                            <p>Outside of campus, you can find Suvi hiking in an old-growth forest, crocheting, enjoying the sunset at Green lake, or reading with a cup of hot tea on a rainy Seattle afternoon.</p> 
+                            <ul class="icons">
+                                <!-- The ORCID icon -->
+                                <li>
+                                    <a href="https://orcid.org/0009-0000-1411-244X" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li>
+                                <!-- The GitHub icon -->
+                                <li>
+                                    <a href="https://github.com/birch33" class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:birch33@uw.edu" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>   
+                    
+                     <!-- Undergraduate Students -->
+                    <h2>Undergraduate Students</h2>
+                    <div class="team-member">
+                        <img src="images/ProfilePics/Luciana.jpg" alt="Luciana">
+                        <div>
+                            <h5>Luciana Calle (2025-present)
+                                <small class="pronouns">| she/her</small>
+                            </h5>
+                            <p>Luciana is a 4th year undergraduate, studying Environmental Science (ESRM) with minors in Climate Science and Data Science. She is passionate about studying plant-fungal relationships within ecological and climate systems, with a focus on understanding community responses to pressing environmental threats such as climate change and wildfire disturbances.</p>
+                            <p>Outside of academia, Luciana enjoys hiking, visiting cafes, nature photography, and scrapbooking in her free time. <p>
+                            <ul class="icons">
+                            <!-- The ORCID icon 
+                                <li>
+                                    <a href="#" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li> -->
+                                <!-- The GitHub icon -->
+                                <li>
+                                    <a href="https://github.com/l-calle" class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:lcalle@uw.edu" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                     <div class="team-member">
+                        <img src="images/ProfilePics/Elena.jpg" alt="Elena Rheingans">
+                        <div>
+                            <h5>Elena Rheingans (2026-present)
+                                <small class="pronouns">| she/her</small>
+                            </h5>
+                            <p>Elena is an undergraduate at the University of Washington, majoring in Environmental Science and Resource Management.  She is fascinated by the fact that solutions to combat the climate crisis are available through naturally occurring species and processes.  After taking ESRM 201 with Claire she was inspired to enhance her understanding of how microbial communities can be a key factor in climate change resilience.  Elena is excited about being a research assistant and having the opportunity to work with Suvi and other lab mates while making a real contribution toward healing our planet.</p>
+                            <p>Aside from being so enamored with nature, Elena enjoys reading, painting, or dancing in her free time.  She is also the Historian of the Filipino American Student Association here at UW.  And, being from Chicago, Elena is so happy to have found people that are interested in similar things as her that she can learn and grow with.<p>
+                            <ul class="icons">
+                                <li>
+                                    <a href="mailto:eir20@uw.edu" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/ProfilePics/Sydney.jpg" alt="Sydney">
+                        <div>
+                            <h5>Sydney Salas (2025-present)
+                                <small class="pronouns">| she/her</small>
+                            </h5>
+                            <p>Sydney is a third-year undergraduate at the University of Washington majoring in Environmental Science and Resource Management (ESRM). She is passionate about building a more climate-resilient future through research and the advancement of sustainable practices that support both ecosystems and communities. Her academic interests lie at the intersection of environmental science, climate adaptation, and resource management, with a focus on developing practical solutions to environmental challenges affecting both land and marine systems.</p>
+                            <p>Beyond academics, Sydney enjoys spending time in nature, traveling, swimming, and trying new foods whenever she gets the chance.<p>
+                            <ul class="icons">
+                            <!-- The ORCID icon 
+                                <li>
+                                    <a href="#" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li> -->
+                                <!-- The GitHub icon -->
+                                <li>
+                                    <a href="https://github.com/" class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:ssalas2@uw.edu" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Affiliates -->
+                    <h2>Affiliates</h2>
+                     <div class="team-member">
+                        <img src="images/ProfilePics/IMG_9957.JPG" alt="Lauren">
+                        <div>
+                            <h5>Lauren Holzman (2024-present)
+                                <small class="pronouns">| she/her</small>
+                            </h5>
+                            <p> </p>
+                            <p> <p>
+                            <ul class="icons">
+                            <!-- The ORCID icon 
+                                <li>
+                                    <a href="#" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li> -->
+                                <!-- The GitHub icon -->
+                                <li>
+                                    <a href="https://github.com/laurenholzman" class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:lauren.holzman00@gmail.com" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Former Lab Members -->
+                    <h2>Former Lab Members</h2>
+                    <div class="team-member">
+                        <img src="images/ProfilePics/Toby.jpg" alt="Toby Bregar">
+                        <div>
+                            <h5>Toby Bregar (2024-present)
+                                <small class="pronouns">| he/him</small>
+                            </h5>
+                            <p>Toby completed his undergraduate capstone and senior thesis in the lab, graduating in Spring 2026. His research investigated the effects of forest seral stages on soil microbial communities and their implications for the germination of black huckleberry (<em>Vaccinium membranaceum</em>)  </p>
+                            <ul class="icons">
+                            <!-- The ORCID icon 
+                                <li>
+                                    <a href="#" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li> -->
+                                <!-- The GitHub icon -->
+                                <li>
+                                    <a href="https://github.com/tobybregar" class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:tbregar@uw.edu" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                <div class="team-member">
+                        <img src="images/ProfilePics/Megan.jpg" alt="Megan Romesberg">
+                        <div>
+                            <h5>Megan Romesberg (2026-present)
+                                <small class="pronouns">| she/her</small>
+                            </h5>
+                            <p>Megan graduated with a degree in Environmental Science and Resource Management in Spring 2026. As part of the Mycobiome Lab, Megan investigated the presence of mycorrhizal fungi in soil samples from planting sites along the Skagit River, in part with Skagit River System Cooperative.</p>
+                            <ul class="icons">
+                                <li>
+                                    <a href="mailto:meganr45@uw.edu" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                <div class="team-member">
+                        <img src="images/ProfilePics/Conor.jpg" alt="Conor">
+                        <div>
+                            <h5>Conor Zeutzius (2024-2025)
+                                <small class="pronouns">| he/him</small>
+                            </h5>
+                            <p> Conor graduated from UW in 2025 with a degree in Environmental Science and Resource Management. Conor was an amazing volunteer assisting with procedures and data within the Forest Mycobiome Lab Group. Conor was also an officer of Student Mycology Club at UW and involved in countless groups including the Meadow Team at the Burke Museum, Society for Ecological Restoration, UW's Dawg Pack Student Section, MESH's Fashion Show, and he was an Undergraduate Student Ambassador for the College of the Environment.</p>
+                            <ul class="icons">
+                            <!-- The ORCID icon 
+                                <li>
+                                    <a href="#" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li> -->
+                                <!-- The GitHub icon -->
+                                <li>
+                                    <a href="https://github.com/khanzzi" class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:conorzeutzius@gmail.com" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                            <div class="team-member">
+                        <img src="images/ProfilePics/Ellie.jpg" alt="Ellie Fajer">
+                        <div>
+                            <h5>Ellie Fajer (2024-2025)
+                                <small class="pronouns">| she/her</small>
+                            </h5>
+                            <p>As a lab technician extraordinaire, Ellie led research on fungal diversity across forest stand ages and contributed to several projects in the lab. Ellie completed a Fulbright Scholar in New Zealand, Ellie is investigating how fungal endophytes can help mitigate the spread of Kauri Dieback and is now a Ph.D. student at Harvard with Dr. Benton Taylor.
+                            </p>
+                            <ul class="icons">
+                                <!-- The ORCID icon
+                                <li>
+                                    <a href="#" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li> -->
+                                <!-- Google Scholar 
+                                <li>
+                                    <a href="#" class="icon fab fa-google-scholar">
+                                        <span class="label">Google Scholar</span>
+                                    </a>
+                                </li> -->
+                                <!-- GitHub -->
+                                <li>
+                                    <a href="https://github.com/efajer33" class="icon fa-github">
+                                        <span class="label">GitHub</span>
+                                    </a>
+                                </li>
+                                <!-- Instagram
+                                <li>
+                                    <a href="#" class="icon fa-instagram">
+                                        <span class="label">Instagram</span>
+                                    </a>
+                                </li> -->
+                                <!-- 	We can add a new icon by searching on the Font Awesome website
+                                for the correct class name and inserting it as a new list item.
+                                
+                                We found "envelope" here: https://fontawesome.com/icons/envelope
+                                -->
+                                <li>
+                                    <a href="mailto:efajer3@gmail.com" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/ProfilePics/Liv.jpg" alt="Liv Filialuna">
+                        <div>
+                            <h5>Oliver Filialuna (2023-2024)
+                                <small class="pronouns">| they/them</small>
+                            </h5>
+                            <p>An amazing lab manager, Oliver was instrumental in establishing the lab. Their work spans studying post-fire fungi's soil-stabilizing properties and creating a digital repository for mycological archives. Oliver is also very active in serveral amateur mycology groups, serving on the Vouchering and Marketing committees for the North American Mycological Society.</p>
+                            <ul class="icons">
+                                <!-- The ORCID icon
+                                <li>
+                                    <a href="#" class="icon fab fa-orcid">
+                                        <span class="label">ORCID</span>
+                                    </a>
+                                </li> -->
+                                <!-- Google Scholar 
+                                <li>
+                                    <a href="#" class="icon fab fa-google-scholar">
+                                        <span class="label">Google Scholar</span>
+                                    </a>
+                                </li> -->
+                                <!-- The Instagram icon -->
+                                <li>
+                                    <a href="https://www.instagram.com/oliver.p.filialuna/" class="icon fa-instagram">
+                                        <span class="label">Instagram</span>
+                                    </a>
+                                </li>
+                                <!-- <li> 
+                                    <a href="#" class="icon fa-envelope">
+                                        <span class="label">Email</span>
+                                    </a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+            </article>
+            
+            <!-- Here is the "Join Us" card. -->
+            <article id="join">
+                <div class="main-photo-container">  
+                    <img class="background-image" src="images/WebpageDecor/pinkramaria.jpg" alt="Pink Ramaria fungi">  
+                    <div class="overlay-box">    
+                        <div class="overlay-text">    
+                            <h1>Join Us</h1>
+                        </div>
+                    </div>
+                </div>
+                
+                <p>I welcome inquiries from prospective postdocs, graduate students, and undergraduates interested in fungal ecology. Before reaching out, please:</p>
+                <ul>
+                    <li>Review our recent lab publications (especially those where I am first or last author) to understand our current research directions</li>
+                    <li>Read our <a href="https://docs.google.com/document/d/1WULbiwqsYDtvgktfuHu2BhX9hj9mc329r96ulUQ-q0A/edit?usp=sharing">lab expectations</a> and <a href="https://drive.google.com/drive/folders/13Q7d3H2gHDjMf2BFyxeac4AypM1iphWg?usp=share_link">Individual Development Plan template</a> to ensure our lab culture aligns with your goals.</li>
+                </ul>
+                
+                <h2>Postdoctoral Fellows & Visiting Scientists</h2>
+                <p>I welcome inquiries from prospective postdocs interested in collaboratively developing proposals for external fellowships. Writing a strong fellowship proposal requires significant time investment from both parties, so I have limited capacity to support applications each year. I prioritize candidates whose research interests closely align with our lab's work.</p>
+                
+                <p>Possible funding opportunities include:</p>
+                <ul>
+                    <li><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503622">NSF Postdoctoral Research Fellowships in Biology</a></li>
+                    <li><a href="https://www.smithfellows.org/">Smith Fellowship</a> for conservation postdocs</li>
+                    <li><a href="https://www.wrfseattle.org/grants/wrf-postdoctoral-fellowships/">Washington Research Foundation Postdoctoral Fellowships</a></li>
+                    <li><a href="https://www.lsrf.org/">Life Sciences Research Foundation</a> fellowships</li>
+                    <li><a href="https://www.cies.org/program/fulbright-visiting-scholar-program">Fulbright Visiting Scholar Program</a> for international collaborators</li>
+                    <li>International funding sources (e.g., <a href="https://secihti.mx/convocatoria_categoria/becas-al-extranjero/">SECIHTI</a> for Mexican researchers, <a href="https://nserc-crsng.canada.ca/en/funding-opportunity/canada-postdoctoral-research-award-program">Canada Postdoctoral Research Award (CPRA)</a> for Canadians, <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships">Marie Skłodowska-Curie Global Fellowships</a> for European researchers)</li>
+                </ul>
+                
+                <p>If you're interested in developing a fellowship proposal to work in our lab, please email me with your CV, a 1-2 paragraph description of your research interests and how they align with our lab's work, and the fellowship(s) you're considering. I review inquiries on a rolling basis and respond only to strong fits. Due to limited bandwidth, I may not be able to respond to all inquiries.</p>
+                
+                <h2>Graduate Students</h2>
+                 <!-- <p>I welcome inquiries from prospective graduate students interested in fungal ecology. Graduate students join our group through the UW School of Environmental and Forest Sciences (MS or PhD).</p>
+                
+                <p><strong>Funding:</strong> I currently have no grants to support new students, so I am unlikely to admit students without external funding. Potential fellowship opportunities include:</p>
+                <ul>
+                    <li>NSF Graduate Research Fellowship Program (GRFP)</li>
+                    <li>Simons Graduate Fellowships in Ecology and Evolution</li>
+                    <li>Ford Foundation Fellowship Programs</li>
+                    <li>Other external fellowships</li>
+                </ul>
+                <p>To connect with me: Complete this Google Form to express your interest. This is not a formal application. I will not respond to email inquiries, only to form submissions.</p> -->
+                <p>I value research fit with our lab's themes, initiative and independence, relevant research experience, and commitment to inclusion and mentorship. I encourage prospective students to contact current lab members to learn more about our research and advising style.</p>
+                
+                <p>Program details: MS averages 2 years, PhD averages 5-6 years. More information and formal application instructions <a href="https://sefs.uw.edu/students/graduate-degrees/">here</a>.</p>
+
+                <p><strong>Autumn 2026 update:</strong> I will not be admitting a student this cycle as I do not have grant funding to support new students. I have created a non-comprehensive list of US-based mycology grad programs that may be helpful: <a href="https://docs.google.com/spreadsheets/d/1nz-yYn9vzi7A_fHGfGBO1-pXqMa3Cf5ySBXItYSMARE/edit?usp=sharing" target="_blank">US Mycology Graduate Programs</a>.</p>
+
+                <h2>Undergraduate Students</h2>
+                <p>Due to high demand, please sign up for our group mailing list rather than emailing me directly:</p>
+                <ol>
+                    <li>Go to the <a href="https://groups.uw.edu/">UW Groups Service</a></li>
+                    <li>Search for: <strong>uw_sefs_netid_forestfun</strong></li>
+                    <li>Add your UW NetID to the list</li>
+                </ol>
+                <p>We will post opportunities for lab and field work through this group. <strong>Please note:</strong> We have significantly more interest than capacity, so opportunities are limited. ESRM undergraduates can also explore the <a href="https://sefs.uw.edu/students/undergraduate/sefs-senior-capstone-program/">Senior Capstone</a>.</p>
+                       </article>
+
         </div>
+
+        <!-- This is the footer that appears at the bottom of the page -->
+        <footer id="footer">
+            <!-- 	You can change "Untitled" to your name to show everyone that this is your work.  -->
+            <p class="copyright">&copy; Dr. Claire Willing. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        </footer>
     </div>
-</nav>
-        <!--  m - for classes that set margin 
-        y - for classes that set both *-top and *-bottom
-        r - for classes that set margin-right or padding-right
-        https://getbootstrap.com/docs/5.0/utilities/spacing/#notation
-        -->
-<!-- Masthead-->
-    <header class="masthead bg-dark">
-    <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-        <img class="img-fluid" src="assets/img/g15-9.png" alt="..." />
-    </div>
-    </header>
-<!-- Lab member section -->
-<section class="about-section" id="people">
-    <div class="container">
-        <div class="col-xl-5 col-lg-4 mb-3"><img class="img-fluid" src="assets/img/RT.png" alt="..." /></div>
-        <div class="row">
-            <!-- Team Member 1 -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-0 shadow" style="width: 20rem; height:500px">
-                        <img src="assets/img/me.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title mb-0">Dr. Steve Kutos</h3>
-                            <h4 class="card-text text-black-25">PI</h4>
-                        </div>
-                    </div>
-                </div>
-            <!-- Team Member 2 -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-0 shadow" style="width: 20rem; height:500px">
-                        <img src="assets/img/122524.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h3 class="card-text text-black">Emily Drum</h3>
-                        <h4 class="card-text text-black-25"><I>Undergrad Researcher - Microbiomes associated with cancer & polyamine depletion</I></h4>
-                    </div>
-                    </div>
-                </div>
-            <!-- Team Member 3 -->
-            <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-0 shadow" style="width: 20rem; height:500px">
-                    <img src="assets/img/122524.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h3 class="card-text text-black">Henry Good</h3>
-                        <h4 class="card-text text-black-25"><I>Undergrad Researcher - Soil-Plant-Fungal Interactions</I></h4>
-                    </div>
-                </div>
-            </div>
-            <!-- Team Member 4 -->
-            <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-0 shadow" style="width: 20rem; height:500px">
-                <img src="assets/img/122524.png" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                <h3 class="card-title mb-0">Aili Miller</h3>
-                <h4 class="card-text text-black-25"><I>Undergrad Researcher - </I></h4>
-                </div>
-            </div>
-            </div>
-        </div>
-        <!-- /.row -->
-    </div>
-</section>
-    <!-- /.container -->
-<!-- Research Section-->
-<section class="projects-section bg-light" id="projects">
-        <!-- Header -->
-            <div class="container">
-                <div class="col-xl-5 col-lg-4 mb-3"><img class="img-fluid" src="assets/img/LR.png" alt="..." /></div>
-            </div>
-            <div class="container px-4 px-lg-5">
-            <!-- Featured Project Row-->
-                <div class="row gx-0 mb-3 mb-lg-3 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/EGUv3.png" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h1 class="display-3"><strong>Community Ecology + Genomics + Microbiomes</strong></h1>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/IMG_3888.jpeg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-primary text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h1 class="text-white"><b>Regenerative Agriculture Microbiomes</b></h1>
-                                    <p class="mb-0 text-white h5"> The goal of this work is to better understand how regenerative agriculture practices influences soil health and the soil microbiome </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/ERUkKUMA.jpeg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-dark text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h1 class="text-white"><b>Coffee Cultivation Intensification & Microbiomes </b></h1>
-                                    <p class="mb-0 text-white h5">We examined how coffee cultivation intensification influences the plant-associated microbiomes in coffee farms in Central & Latin America</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <!-- Project Three Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/IMG_0328.JPG" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-primary text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h1 class="text-white"><b>Composts & Microbes</b></h1>
-                                    <p class="mb-0 text-white h5">Goal of this project was to understand the effectiveness of compost applications & its influence over the soil microbiome across a range of dry rangeland conditions throughout New Mexico</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             <!-- Project Four Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/20171027.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-dark text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h1 class="text-white"><b>Soil Biodiveristy in Urban Areas</b></h1>
-                                    <p class="mb-0 text-white h5"> This project explores the impacts of urbanization on microbiomes & envrionmental health as compared to more rural or suburban areas </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>         
-            </div>
-</section>
-<!-- Publications-->
-<section class="about-section text-left" id="publications">
-    <div class="container px-5 px-lg-5">
-        <div class="container">
-            <div class="col-xl-5 col-lg-4 mb-3"><img class="img-fluid" src="assets/img/g16.png" alt="..." /></div>
-        </div>
-        <div class="row gx-3 gx-lg-0">
-                    <div class="col-lg-12">
-                        <ul class="text-white px-4"><h5>
-                            <li><b>Kutos S</b>, Bennett R, Boterro-Delgadillo E, Santos D, Muletz Wolz C. 2025. Soil and cherry bacterial communities predict flavor on coffee farms. Scientific Reports-15(1), 19387. doi.org/10.1038/s41598-025-03665-6
-                                <a href="https://www.nature.com/articles/s41598-025-03665-6/">LINK</a> 
-                            </li>
-                            <li>Muletz-Wolz CR, Urrutia-Carter J, Osborne O, <b>Kutos S</b>, Meneses Montano J, Madison JD, Gratwicke B, Racharaks R, Roncal NE, Jimenez RR, Ellison A. 2025. Novel antimicrobial peptides and peptide-microbiome crosstalk in Appalachian salamander skin. npj Biofilms & Microbiomes. Nov 20;11(1):213. 
-                                <a href="https://www.nature.com/articles/s41522-025-00837-0">LINK</a> 
-                            </li>
-                            <li>Naghshineh N, Barnes EM, <b>Kutos S</b>, Lewis JD. 2025. Reorganization of bacterial community network structure in the eastern redback salamander (Plethodon cinereus) and its soil reservoir across a gradient of land use. FEMS Microbiology Ecology-24-11-0266.R1
-                                <a href="https://academic.oup.com/femsec/article/101/6/fiaf057/8155883">LINK</a> 
-                            </li>
-                            <li>Bethany J, <b>Kutos S</b>, Oliver K, Stricker E. 2024. Spring manure- and biosolid compost additions affect soil, vegetation, and microbial characteristic in dry rangelands. Rangeland Ecology and Management, 94:78-82. doi.org/10.1016/j.rama.2024.01.011
-                                <a href="https://www.sciencedirect.com/science/article/abs/pii/S1550742424000113">LINK</a> 
-                            </li>
-                            <li><b>Kutos S</b>, Bennett R, Rao M, Fleischer R, Rice R, Muletz Wolz C. 2024. Farm management and shade tree species influence coffee soil microbiomes in Central and South America. Applied Soil Ecology, 202, 105571. doi.org/10.1016/j.apsoil.2024.105571.
-                                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0929139324003020">LINK</a> 
-                            </li>
-                            <li><b>Kutos S</b>, Stricker E, Cooper A, Ryals R, Creque J, Machmuller M, Kroegar M, Silver WL. 2023. Compost amendment to enhance carbon sequestration in rangelands. Journal of Soil and Water Conservation, 78(2):163-77. doi.org/10.2489/jswc.2023.00072.
-                                <a href="https://www.tandfonline.com/doi/full/10.2489/jswc.2023.00072">LINK</a> 
-                            </li>
-                            <li><b>Kutos S</b>, Barnes EM, Bhutada A, Lewis JD. 2022. Preferential associations of soil fungal taxa under mixed compositions of eastern American tree species. FEMS Microbiology Ecology, 98(6)fiac056. doi.org/10.1093/femsec/fiac056.
-                                <a href="https://pubmed.ncbi.nlm.nih.gov/35521705/">LINK</a>     
-                            </li>
-                            <li><b>Kutos S</b>, Barnes EM, Lewis JD. 2022. Soil fungal communities vary more with soil characteristics than tree diversity at a local scale. Canadian Journal of Forest Research, cjfr-2021-0360. doi.org/10.1139/cjfr-2021-0360.
-                                <a href="https://cdnsciencepub.com/doi/10.1139/cjfr-2021-0360">LINK</a> 
-                            </li>
-                            <li><b>Kutos S</b>. 2021. Factors influencing soil fungal community composition and function in deciduous forests. ProQuest. </li>
-                            <li><b>Kutos S</b>*, Barnes EM*, Naghshineh N, Mesko M, You Q, Lewis JD. 2021. Assembly of the amphibian microbiome is influenced by the effects of landuse change on environmental reservoirs. Environmental Microbiology, 23(8) 4595-4611. doi.org/10.1111/1462-2920.15653. *Co-first
-                                <a href="https://pubmed.ncbi.nlm.nih.gov/34190389/">LINK</a> 
-                            </li></h5>
-                        </ul> 
-                    </div>
-        </div>
-    </div>
-</section>
-<!-- Contact-->
-        <section class="contact-section bg-dark" id="contact">
-        <!-- Header -->
-            <div class="container">
-                <div class="col-xl-5 col-lg-4 mb-3"><img class="img-fluid" src="assets/img/C.png" alt="..." /></div>
-            </div>
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <h2 class="text-capitalize m-0"><b><u>Location</u></b></h2>
-                                <h3 class="text-black">Department of Biology</h3>
-                                <h3 class="text-black">Loyola University Maryland</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <h2 class="text-capitalize m-0"><b><u>Email</u></b></h2>
-                                <h3 class="text-black">skutos(at)loyola.edu</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <h2 class="text-capitalize m-0"><b><u>Links</u></b></h2>
-                                <p class="h3"><a href="https://linkedin.com/in/stevekutos/">LinkedIn</a></p>
-                                <p class="h3"><a href="https://orcid.org/0000-0003-4230-3715">ORCID</a></p>           
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white"><div class="container px-4 px-lg-5">Copyright &copy; GNOME Lab - Steve Kutos</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+    
+    <!--	This is the background image of the site.
+    All configuration of the background is done with CSS.
+    Look in the file assets/css/main.css and search for "#bg" to
+    see how this element is styled. Look for comments pointing 
+    to where you can set a new background image.
+    -->
+    <div id="bg"></div>
+    
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+</body>
+
 </html>
