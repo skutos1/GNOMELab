@@ -1,474 +1,209 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
 <!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-    <!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
-    <title>LUM GNOME Lab</title>
-    <title>Dr. Steve Kutos</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <!-- This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
-    If you want to edit the styling of this page, you should edit the file assets/css/main.css
-    If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
-    <link rel="stylesheet" href="assets/css/my-new-css-file.css"/>
-    -->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!-- In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
-    will load a separate set of CSS stylings from the file assets/css/noscript.css
-    Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
-    available.
-    -->
-    <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" />
-    </noscript>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-</head>
-<!-- The body is the location where your site's content will go -->
+	<head>
+		<title>Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<body class="is-preload">
-    
-    <!-- This "div" wraps around all of our content and just changes how things are layed out -->
-    <div id="wrapper">
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Who we are</a></li>
+							<li><a href="#two">What we do</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 
-        <!-- This is where the content that appears on page load exists -->
-        <header id="header">
-            <!-- This is the main content of the front page -->
-            <div class="content">
-                <div class="inner">
-                                        <!-- Here is an image where you can put a picture of you. 
-                    You can change the width and height attributes below to change how large
-                    your image is.
-                    
-                    Try adding "border-radius: 50%;" to the style attribute.
-                    -->
-                    <!-- Here is a heading where you can put your name -->
-                    <h1>
-                        UNDER CONSTRUCTION
-                    </h1>
-                    <h3>
-                        Department of Biology
-                        <br>
-                        Loyola University Maryland
-                    </h3>
-                    <img src="images/g15-9.png" alt="LabLogo" width="800" height="200">
-                </div>
-            <nav>
-                <!-- This element makes an "Unordered List" -->
-                <ul>
-                    <!-- This is a "List Item" -->
-                    <li>
-                        <!-- Note that this links to #about, which will move the page to wherever
-                        the element with the id "about" exists. -->
-                        <a href="#research">Research</a>
-                    </li>
-                    <li>
-                        <a href="#people">Research Team</a>
-                    </li>
-                    <li>
-                        <a href="#publications">Publications</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        
-        <!-- These are the "cards" that appear when you click the buttons on the main page -->
-        <div id="main">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-            <!-- Here is the "Publications" card. -->
-            <article id="publications">
-                <div class="image main">
-                    <img src="images/g15-9.png" alt="LOGO">
-                    <div class="overlay-box">
-                        <div class="overlay-text">
-                            <h1>Selected Publications</h1>
-                            <br><br>
-                            <h4>Complete list of publications:</h4>
-                            <a href="https://scholar.google.com/citations?user=" target="_blank">
-                                <button class="button">Google Scholar</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Selected pubs -->
-                <br>
-                <!-- 	A <br> tag puts in a break so that the text that follows it displays on the next line. -->
-                <span class="image left">
-                    <img src="images/Pubs/" alt="NCC">
-                </span>
-                <p><b></b> <a href="https://doi.org/10.1" target="_blank">doi.org/10.1</a></p>
-                <span class="image left">
-                    <img src="images/Pubs/" alt="ISME">
-                </span>
-                <p><a href="https://doi.org/10.1093/ target="_blank">doi.org/10.1093</a></p>
-                <br><br>
-                <span class="image left">
-                    <img src="images/Pubs/" alt="GCB">
-                </span>
-                <p><a href="https://doi.org/10.1111/gcb.16740" target="_blank">doi.org/10.</a></p>
-                <span class="image left">
-                    <img src="images/Pubs/" alt="ELE">
-                </span>
-                <p><b></b><a href="https://doi.org/" target="_blank">doi.org/</a></p>
-                <br><br>
-                <span class="image left">
-                    <img src="images/Pubs/" alt="">
-                </span>
-                <p><b></b><a href="https://doi.org/" target="_blank">doi.org/</a></p>
-                <span class="image left">
-                    <img src="images/Pubs/" alt="NEE">
-                </span>
-                <p><b></b><a href="https://doi.org" target="_blank">doi.org/</a></p>
-            </article>
-            
-            <!-- Here is the "Research" card. -->
-            <article id="research">
-                <div class="main-photo-container">  
-                    <img  class="background-image" src="images/WebpageDecor/.jpg">  
-                    <div class="overlay-box">    
-                        <div class="overlay-text">    
-                            <h1>Research</h1> 
-                        </div>
-                    </div>
-                </div>
-                <br>
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Hyperspace</h1>
+							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
+							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
 
-                <!-- A <br> tag puts in a break so that the text that follows it displays on the next line. -->
-                <h3>Animal Microbiomes</h3>
-                <span class="image left">
-                    <img src="images/" alt="">
-                </span>
-                <p>TEXT HERE
-                </p>
-                <br>
-                
-                <h3>Regenerative Agriculture Microbiomes</h3>
-                <span class="image left">
-                    <img src="images/IMG_3888.jpg" alt="test">
-                </span>
-                <p>The goal of this work is to better understand how regenerative agriculture practices influences soil health and the soil microbiome 
-                </p>
-                
-                <h3>Coffee Cultivation Intensification & Microbiomes </h3>
-                <span class="image left">
-                    <img src="images/ERUkKUMA.jpg" alt="test">
-                </span>
-                <p>We examined how coffee cultivation intensification influences  plant-associated microbiomes in coffee farms in Central & Latin America
-                </p>
-            </article>
-            
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Sed ipsum dolor</h2>
+									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Feugiat consequat</h2>
+									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Ultricies aliquam</h2>
+									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
 
-            <!-- Our Team Section -->
-            <article id="people">
-                <div class="main-photo-container">  
-                    <img  class="background-image" src="images/RT.png" alt="LabLogo" width="400" height="2100">  
-                    <div class="overlay-box">    
-                        <div class="overlay-text">    
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <!-- Team Members Section -->
-                <div class="team-content">
-                    <!-- Principal Investigator -->
-                    <h2>Principal Investigator</h2>
-                    <div class="team-member">
-                        <span class="image img">
-                            <img src="images/.jpg" alt="">
-                        </span>
-                        <div>
-                            <h5 id="Kutos+Steve">Dr. Steve Kutos
-                            </h5>
-                            <p>TEXT HERE</p>
-                            <p>TEXT HERE</p>
-                            <ul class="icons">
-                                <!-- The ORCID icon -->
-                                <li>
-                                    <a href="https://orcid.org/" class="icon fab fa-orcid">
-                                        <span class="label">ORCID</span>
-                                    </a>
-                                </li>
-                                <!-- Google Scholar -->
-                                <li>
-                                    <a href="https://scholar.google.com/citations?user=S5MkFZQAAAAJ" class="icon fab fa-google-scholar">
-                                        <span class="label">Google Scholar</span>
-                                    </a>
-                                </li>
-                                <!-- Twitter -->
-                                <li>
-                                    <a href="https://bsky.app/profile/skutos.bsky.social" class="icon fab fa-bluesky">
-                                        <span class="label">BlueSky</span>
-                                    </a>
-                                </li>
-                                <!-- LINKEDIN -->
-                                <li>
-                                    <a href="https://www.linkedin.com/in/stevekutos/" class="fa-brands fa-square-linkedin">
-                                    </a>
-                                </li>
-                                <!-- 	We can add a new icon by searching on the Font Awesome website
-                                for the correct class name and inserting it as a new list item.
-                                
-                                We found "envelope" here: https://fontawesome.com/icons/envelope
-                                -->
-                                <li>
-                                    <a href="mailto:skutos@loyola.edu" class="icon fa-envelope">
-                                        <span class="label">Email</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>What we do</h2>
+							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Lorem ipsum amet</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3>Aliquam sed nullam</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>Sed erat ullam corper</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-desktop"></span>
+									<h3>Veroeros quis lorem</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>Urna quis bibendum</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon major fa-gem"></span>
+									<h3>Aliquam urna dapibus</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
 
-                     <!-- Undergraduate Students -->
-                    <h2>Undergraduate Students</h2>
-                    <div class="team-member">
-                        <img src="images/ProfilePics/" alt="">
-                        <div>
-                            <h5>NAME</h5>
-                            <p>TEXT HERE</p>
-                            <p>TEXT HERE<p>
-                            <ul class="icons">
-                            <!-- The ORCID icon 
-                                <li>
-                                    <a href="#" class="icon fab fa-orcid">
-                                        <span class="label">ORCID</span>
-                                    </a>
-                                </li> -->
-                                <!-- The GitHub icon -->
-                                <li>
-                                    <a href="https://github.com/" class="icon fa-github">
-                                        <span class="label">GitHub</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:" class="icon fa-envelope">
-                                        <span class="label">Email</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span>12345 Somewhere Road #654<br />
+											Nashville, TN 00000-0000<br />
+											USA</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="#">user@untitled.tld</a>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>(000) 000-0000</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
 
+			</div>
 
-                     <div class="team-member">
-                        <img src="images/ProfilePics/" alt="">
-                        <div>
-                            <h5>NAME</h5>
-                            <p>TEXT HERE</p>
-                            <p>TEXT HERE<p>
-                            <ul class="icons">
-                                <li>
-                                    <a href="mailto:" class="icon fa-envelope">
-                                        <span class="label">Email</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
 
-                    <div class="team-member">
-                        <img src="images/ProfilePics/" alt="">
-                        <div>
-                            <h5>NAME
-                            </h5>
-                            <p>TEXT HERE</p>
-                            <p>TEXT HERE<p>
-                            <ul class="icons">
-                            <!-- The ORCID icon 
-                                <li>
-                                    <a href="#" class="icon fab fa-orcid">
-                                        <span class="label">ORCID</span>
-                                    </a>
-                                </li> -->
-                                <!-- The GitHub icon -->
-                                <li>
-                                    <a href="https://github.com/" class="icon fa-github">
-                                        <span class="label">GitHub</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:" class="icon fa-envelope">
-                                        <span class="label">Email</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <!-- Former Lab Members -->
-                    <h2>Former Lab Members</h2>
-                    <div class="team-member">
-                        <img src="images/ProfilePics/" alt="">
-                        <div>
-                            <h5>NAME</h5>
-                            <p>TEXT HERE</p>
-                            <ul class="icons">
-                            <!-- The ORCID icon 
-                                <li>
-                                    <a href="#" class="icon fab fa-orcid">
-                                        <span class="label">ORCID</span>
-                                    </a>
-                                </li> -->
-                                <!-- The GitHub icon -->
-                                <li>
-                                    <a href="https://github.com/" class="icon fa-github">
-                                        <span class="label">GitHub</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:" class="icon fa-envelope">
-                                        <span class="label">Email</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-                <div class="team-member">
-                        <img src="images/ProfilePics/" alt="">
-                        <div>
-                            <h5>NAME
-                            </h5>
-                            <p>TEXT HERE</p>
-                            <ul class="icons">
-                                <li>
-                                    <a href="mailto:" class="icon fa-envelope">
-                                        <span class="label">Email</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                <div class="team-member">
-                        <img src="images/ProfilePics/" alt="">
-                        <div>
-                            <h5>NAME
-                            </h5>
-                            <p>TEXT HERE</p>
-                            <ul class="icons">
-                            <!-- The ORCID icon 
-                                <li>
-                                    <a href="#" class="icon fab fa-orcid">
-                                        <span class="label">ORCID</span>
-                                    </a>
-                                </li> -->
-                                <!-- The GitHub icon -->
-                                <li>
-                                    <a href="https://github.com/" class="icon fa-github">
-                                        <span class="label">GitHub</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:" class="icon fa-envelope">
-                                        <span class="label">Email</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                            <div class="team-member">
-                        <img src="images/ProfilePics/" alt="">
-                        <div>
-                            <h5>NAME 
-                            </h5>
-                            <p>TEXT HERE
-                            </p>
-                            <ul class="icons">
-                                <!-- The ORCID icon
-                                <li>
-                                    <a href="#" class="icon fab fa-orcid">
-                                        <span class="label">ORCID</span>
-                                    </a>
-                                </li> -->
-                                <!-- Google Scholar 
-                                <li>
-                                    <a href="#" class="icon fab fa-google-scholar">
-                                        <span class="label">Google Scholar</span>
-                                    </a>
-                                </li> -->
-                                <!-- GitHub -->
-                                <li>
-                                    <a href="https://github.com/" class="icon fa-github">
-                                        <span class="label">GitHub</span>
-                                    </a>
-                                </li>
-                                <!-- Instagram
-                                <li>
-                                    <a href="#" class="icon fa-instagram">
-                                        <span class="label">Instagram</span>
-                                    </a>
-                                </li> -->
-                                <!-- 	We can add a new icon by searching on the Font Awesome website
-                                for the correct class name and inserting it as a new list item.
-                                
-                                We found "envelope" here: https://fontawesome.com/icons/envelope
-                                -->
-                                <li>
-                                    <a href="mailto:efajer3@gmail.com" class="icon fa-envelope">
-                                        <span class="label">Email</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="team-member">
-                        <img src="images/ProfilePics/" alt="">
-                        <div>
-                            <h5>NAME
-                            </h5>
-                            <p>TEXT HERE</p>
-                            <ul class="icons">
-                                <!-- The ORCID icon
-                                <li>
-                                    <a href="#" class="icon fab fa-orcid">
-                                        <span class="label">ORCID</span>
-                                    </a>
-                                </li> -->
-                                <!-- Google Scholar 
-                                <li>
-                                    <a href="#" class="icon fab fa-google-scholar">
-                                        <span class="label">Google Scholar</span>
-                                    </a>
-                                </li> -->
-                                <!-- <li> 
-                                    <a href="#" class="icon fa-envelope">
-                                        <span class="label">Email</span>
-                                    </a>
-                                </li> -->
-                            </ul>
-                        </div>
-                    </div>
-            </article>
-       
-
-        </div>
-        <!-- This is the footer that appears at the bottom of the page -->
-        <footer id="footer">
-            <p class="copyright">&copy; Dr. Steve Kutos</p>
-        </footer>
-    </div>
-    
-    <!--	This is the background image of the site.
-    All configuration of the background is done with CSS.
-    Look in the file assets/css/main.css and search for "#bg" to
-    see how this element is styled. Look for comments pointing 
-    to where you can set a new background image.
-    -->
-    <div id="bg"></div>
-    
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    
-</body>
-
+	</body>
 </html>
